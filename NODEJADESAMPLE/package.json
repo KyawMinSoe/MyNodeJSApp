@@ -1,0 +1,25 @@
+{
+  "name": "nodemateriallite",
+  "version": "1.3.0",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "help": "^3.0.2",
+    "method-override": "^3.0.0",
+    "morgan": "*",
+    "pug": "^3.0.0",
+    "serve-favicon": "*",
+    "stylus": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "description": "Node.js Material Starter Template ===",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

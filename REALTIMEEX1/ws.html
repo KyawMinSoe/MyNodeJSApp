@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>sample app</title>
+</head>
+<body>
+    <h1>sample app</h1>
+    <h6>open console</h6>
+<script>
+    var ws = new WebSocket('ws://localhost:40510');
+    ws.onopen = function()
+    {
+        console.log('web sockect is connected....');
+        ws.send('connected');
+    }
+
+    ws.onmessage = function(ev)
+    {
+        console.log(ev);
+    }
+</script>
+</body>
+</html>

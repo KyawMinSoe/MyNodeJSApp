@@ -1,0 +1,15 @@
+{
+  "name": "nodesimple3",
+  "version": "1.0.0",
+  "description": "This is sample package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skillsoft",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^17.0.2"
+  }
+}
